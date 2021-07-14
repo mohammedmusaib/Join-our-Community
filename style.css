@@ -68,13 +68,13 @@ h4{
     position: relative;
     top: 20px;
     left: 130px;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
 .full{
     position: relative;
     top: 50px;
     left: 50px;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 .signin{
     color: whitesmoke;
@@ -162,14 +162,14 @@ h4{
     position: relative;
     top: 20px;
     left: 10%;
-    font-size: 1.0rem;
+    font-size: 1.4rem;
 }
 .dolar{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #fa8231;
     text-shadow: rgb(252, 252, 253) 3px 0px 7px;
     position: relative;
-    top: 35px;
+    top: 30px;
     left: 10%;
     font-size: 2.5rem;  
 }
@@ -177,40 +177,47 @@ h4{
     position: relative;
     top: 5px;
     left: 30%;
-    font-size: 1.2rem;
+    font-size: 1.0rem;
 }
 .full{
     position: relative;
     top: 30px;
     left: 10%;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 .signin{
-    background-color: fuchsia;
+    color: whitesmoke;
+    background-color:  rgb(27, 95, 163) ;
     position: relative;
-    top: 50px;
-    left: 0px;
-    padding: 10px 30px;
-    width: 100%;
-    text-align: center;
+    top: 20%;
+    left: 12%;
+    padding: 10px 100px;
+    border: rgb(242, 242, 247) 2px inset;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
 }
 
 ul{
-    background-color: coral;
+    /* background-color: coral; */
     position: relative;
-    top: 50px;
+    top: 30px;
     left: 10%;
-    line-height: 30px;
+    line-height: 25px;
     list-style-type: none;
-    font-size: 1.5rem;
-    width: 50%;
+    font-size: 1.1rem;
+    width: 100%;
 }
 .whyus{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     position: relative;
     top: 20px;
-    left: 50px;
+    left: 10%;
     width: 50%;
+}
+li{
+    text-transform:lowercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
  
