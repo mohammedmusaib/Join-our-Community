@@ -9,219 +9,245 @@ body{
 }
 .first{
     width: 100%;
-    height: 50vh;
+    height: 30vh;
 }
 .second{
     background-color: #9980FA;
-    width: 50%;
-    height: 50vh;
+    width: 100%;
+    height: 35vh;
+
 }
 .third{
     background-color: #5758BB;
-    width: 50%;
-    height: 50vh;
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
+    width: 100%;
+    height: 35vh;
 }
 h1{
     color: rgb(27, 95, 163) ;
-    text-shadow: rgb(89, 86, 240) 3px 0px 7px;
-    position: absolute;
-    top: 5%;
-    left: 5%;
-    font-size: 3rem;
+    /* text-shadow: rgb(89, 86, 240) 3px 0px 7px; */
+   margin : 20px;
+    font-size: 2.4rem;
 }
 h3{
     color: #fa8231;
-    position: absolute;
-    top: 15%;
-    left: 5%;
+  margin-left: 20px;
     font-size: 1.5rem;
 }
 h4{
     color: brown;
-    position: absolute;
-    top: 25%;
-    left: 5%;
+    margin: 20px 0px 0px 20px ;
     font-size: 1.2rem;
     line-height: 35px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .monthlysubs{
+    margin-left: 20px;
     font-family: 'Teko', sans-serif;
-    position: relative;
-    top: 20px;
-    left: 50px;
-    font-size: 1.8rem;
-}
+    font-size: 2.2rem;
+    }
 .dolar{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #fa8231;
-    text-shadow: rgb(252, 252, 253) 3px 0px 7px;
-    position: relative;
-    top: 50px;
-    left: 50px;
-    font-size: 2.8rem;  
+    margin : 10px 0px 10px 30px;
+    /* text-shadow: rgb(252, 252, 253) 3px 0px 7px; */
+    font-size: 4rem;  
 }
 .permonth{
-    position: relative;
-    top: 20px;
-    left: 130px;
-    font-size: 1.4rem;
+    font-size: 1.0rem; 
 }
 .full{
-    position: relative;
-    top: 50px;
-    left: 50px;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    margin: 0px 0px 0px 30px;
 }
 .signin{
     color: whitesmoke;
     background-color:  rgb(27, 95, 163) ;
-    position: relative;
-    top: 90px;
-    left: 80px;
     padding: 10px 120px;
     border: rgb(242, 242, 247) 2px inset;
     border-radius: 20px;
     font-size: 20px;
     cursor: pointer;
+    margin: 20px 0px 30px 50px;
 }
 
 ul{
     color: whitesmoke;
-    position: relative;
-    top: 30px;
-    left: 50px;
     line-height: 30px;
     list-style-type: none;
-    width: 90%;
     font-size: 1.2rem;
 }
-.whyus{
+.whyus{margin: 0px 0px 0px 30px;
     font-family: 'Teko', sans-serif;
     font-size: 1.8rem;
-    position: relative;
-    top: 20px;
-    left: 50px;
-    width: 90%;
 }
-li{
+li{margin: 0px 0px 0px 30px;
     text-transform:lowercase;
     font-family: 'Comfortaa', cursive
 }
 
-/* Mobile Responseive */
-@media screen and (max-width : 700px){
+/* Mobile Responseive for iphone 5S */
+ @media screen and (min-width :320px){
+     h1{
+         font-size: 1.7rem;
+         margin: 20px 0px 10px 20px;
+     }
+     h3{   
+         font-size: 1.1rem;
+         line-height: 1.3rem;
+         margin: 10px 0px 10px 20px;
+     }
+     h4{
+         font-size: .8rem;
+         line-height: 1.0rem;
+         margin: 0px 0px 0px 20px;
+
+     }
+     .monthlysubs{
+         font-size: 1.7rem;
+         padding-top: 10px;
+         margin: 0px 0px 0px 20px;
+
+     }
+     .dolar{
+         font-size: 2.6rem;
+         margin: 0px 0px 0px 30px ;
+
+     }
+     .full{
+        font-size: 1.2rem;
+        margin: 10px 0px 0px 0px;
+         text-align: center;
+        }
+        .signin{
+            margin: 10px 0px 0px 40px ;
+            padding: 6px 90px;
+        }
+        li{margin: 0px 0px 0px 30px;
+            font-size: 1.0rem;
+            line-height: 1.2rem;
+            
+        }
+
+ }
+ /* 2-Mobile Responseive for galaxy */
+ @media screen and (min-width :360px){
+    h1{
+        font-size:2rem;
+    }
+    h3{   
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+    }
+    h4{
+        font-size: 1.1rem;
+        line-height: 1.3rem;
+    }
+    /* .monthlysubs{
+        font-size: 1.7rem;
+        padding-top: 10px;
+    } */
+    .dolar{
+        font-size: 3.0rem;
+    }
+    .full{
+       font-size: 1.3rem;
+       }
+       .signin{
+           margin: 20px 0px 0px 40px ;
+           padding: 6px 110px;
+       }
+       li{margin: 5px 0px 0px 30px;
+           font-size: 1.1rem;    
+       }
+}
+/* 3-Mobile Responseive  */
+@media screen and (min-width :375px ){
+    h1{
+        font-size:2rem;
+    }
+    h3{   
+        font-size: 1.3rem;
+        line-height: 1.6rem;
+    }
+    h4{
+        font-size: 0.9rem;
+        line-height: 1.2rem;
+    }
+      .dolar{
+        font-size: 3.0rem;
+    }
+    .full{
+       font-size: 1.3rem;
+       }
+       .signin{
+           margin: 15px 0px 0px 40px ;
+       }
+    }
+ /* Mobile Responseive for Desktop*/
+ @media screen and (min-width :1024px){
     .first{
-        /* background-color: crimson; */
         width: 100%;
-        height: 30vh;
+        height: 45vh;
     }
     .second{
-        background-color: #9980FA;
-        width: 100%;
-        height: 35vh;
+        width: 50%;
+        height: 55vh;
+        float: left;
     }
     .third{
-        background-color: #5758BB;
-        width: 100%;
-        height: 35vh;
-     
+        width: 50%;
+        height: 55vh;
+        float: right ;
+     }
+    h1{
+        font-size: 3.5rem;
+        margin: 20px 0px 10px 50px;
     }
-   h1{ width: 100%;
-       height: 5vh;
-       text-align: center;
-       font-size: 30px;
-       position: absolute;
-       top: 4%;
-       left: 0px;
-   }
-   h3{
-    color: #fa8231;
-    position: absolute;
-    top: 12%;
-    left: 0px;
-    font-size: 1.0rem;
-    width: 100%;
-    text-align: center;
-}
-h4{
-    color: brown;
-    position: absolute;
-    top: 18%;
-    left: 0%;
-    width: 100%;
-    text-align: center;
-    font-size: 0.6rem;
-    line-height: 17px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.monthlysubs{
-    position: relative;
-    top: 20px;
-    left: 10%;
-    font-size: 1.4rem;
-}
-.dolar{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #fa8231;
-    text-shadow: rgb(252, 252, 253) 3px 0px 7px;
-    position: relative;
-    top: 30px;
-    left: 10%;
-    font-size: 2.5rem;  
-}
-.permonth{
-    position: relative;
-    top: 5px;
-    left: 30%;
-    font-size: 1.0rem;
-}
-.full{
-    position: relative;
-    top: 30px;
-    left: 10%;
-    font-size: 1.1rem;
-}
-.signin{
-    color: whitesmoke;
-    background-color:  rgb(27, 95, 163) ;
-    position: relative;
-    top: 20%;
-    left: 12%;
-    padding: 10px 100px;
-    border: rgb(242, 242, 247) 2px inset;
-    border-radius: 20px;
-    font-size: 20px;
-    cursor: pointer;
+    h3{   
+        font-size: 2rem;
+        margin: 20px 0px 10px 50px;
+    }
+    h4{
+        font-size: 1.3rem;
+        line-height: 2.1rem;
+        width: 55%;
+        margin: 60px 0px 10px 50px;
+    }
+    .monthlysubs{
+        font-size: 1.9rem;
+        margin-top: 20px;
+        margin: 30px 0px 10px 50px;
+    }
+    .dolar{
+        font-size: 3rem;
+        display: inline-block;
+        margin: 10px 0px 10px 50px;
+
+    }
+    .permonth{
+        font-size: 1.4rem;
+    }
+    .full{
+       font-size: 1.5rem;
+       text-align: start;
+       margin: 10px 0px 0px 50px;
+       }
+       .signin{
+           padding: 10px 150px;
+           margin: 40px 60px ;
+       }
+       .whyus{
+           margin-top: 30px;
+           font-size: 2.0rem;
+       }
+       li{margin: 18px 0px 0px 30px;
+           font-size: 1.5rem; 
+           text-transform: capitalize;      
+       }
+
 }
 
-ul{
-    /* background-color: coral; */
-    position: relative;
-    top: 30px;
-    left: 10%;
-    line-height: 25px;
-    list-style-type: none;
-    font-size: 1.1rem;
-    width: 100%;
-}
-.whyus{
-    font-size: 1.5rem;
-    position: relative;
-    top: 20px;
-    left: 10%;
-    width: 50%;
-}
-li{
-    text-transform:lowercase;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
 
  
    
 
-   
-}
